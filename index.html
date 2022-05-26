@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UmbraGames - Fighting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Red Container Div -->
+    <div class="container">
+        <div class="hud">
+            <!-- Player Health -->
+            <div class="player-health-container">
+                <div class="player-max-health"></div>
+                <div class="player-current-health" id="playerHealth"></div>
+            </div>
+            <!-- Timer -->
+            <div class="timer" id="timer">99</div>
+            <!-- Enemy Health -->
+            <div class="enemy-health-container">
+                <div class="enemy-max-health"></div>
+                <div class="enemy-current-health" id="enemyHealth"></div>
+            </div>
+        </div>
+        <div class="displayText" id="displayText">Tie</div>
+        <canvas></canvas>
+    </div>
+    
+    <script src="js/gsap.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
